@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima — Prueba de API´s</title>
+  <link rel="stylesheet" href="../statics/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Clima</h1>
+    <div id="welcome" class="welcome"></div>
+  </header>
+
+  <div class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="clima.html">Clima</a>
+    <a href="paises.html">Países</a>
+    <a href="pokemon.html">Pokémon</a>
+    <a href="rick.html">Rick & Morty</a>
+    <a href="cripto.html">Criptomonedas</a>
+  </div>
+
+  <main class="container">
+    <section class="input-block">
+      <input type="text" id="ciudadInput" placeholder="Ingresa el nombre de la ciudad">
+      <button id="buscarClima">Buscar</button>
+    </section>
+    <div id="climaDetalle" class="card result-card"></div>
+    <div id="error" class="error"></div>
+  </main>
+
+  <script src="../js/script_bienvenida.js"></script>
+  <script src="../js/clima.js"></script>
+</body>
+</html>
